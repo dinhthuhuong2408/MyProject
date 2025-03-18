@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="product_name">Tên sản phẩm</string>
+    <string name="product_price">Giá sản phẩm</string>
+    <string name="product_image_description">Hình ảnh sản phẩm</string>
+    <string name="product_image_desc">Hình ảnh sản phẩm</string>
+
+</resources>
