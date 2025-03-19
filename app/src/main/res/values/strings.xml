@@ -4,5 +4,12 @@
     <string name="product_price">Giá sản phẩm</string>
     <string name="product_image_description">Hình ảnh sản phẩm</string>
     <string name="product_image_desc">Hình ảnh sản phẩm</string>
+    <string name="add_to_cart">Thêm vào giỏ hàng</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_cart">Giỏ hàng</string>
+    <string name="nav_profile">Hồ sơ</string>
+    <string name="product_list">Danh sách sản phẩm</string>
+
+
 
 </resources>

@@ -8,11 +8,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Thanh điều hướng ở trên cùng -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintTop_toTopOf="parent"/> <!-- Đưa lên đầu -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_product" />
+        tools:listitem="@layout/item_product"
+        app:layout_constraintTop_toBottomOf="@id/bottom_navigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/product_list"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
